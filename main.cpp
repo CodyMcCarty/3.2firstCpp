@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main(){
-    auto result = (10 <=> 20) > 0;
-    std::cout << "this " << result << std::endl;
+    std::cout << "Hello World" << std::endl;
+    
+    return 0;
 }
