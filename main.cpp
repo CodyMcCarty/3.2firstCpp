@@ -1,6 +1,11 @@
+//This brings in the iostream library
 #include <iostream>
 
-// comment
+/*
+this is a 
+block comment
+*/
+
 
 int main(){
     std::cout << "Hello World" << std::endl;
