@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int addNums(int first_num, int second_num){
     int sum = first_num + second_num;
@@ -11,28 +12,30 @@ int divNums(int dividend, int divisor){
 }
 
 int main(){
-    int first_num {3};
-    int second_num {7};
+    // int age{35};
+    // std::cout << "age: " << age << std::endl;
 
-    std::cout << "1st: " << first_num << std::endl;
-    std::cout << "2nd: " << second_num << std::endl;
+    // std::cerr << "Error" << std::endl;
+    // std::clog << "log" << std::endl;
 
-    int sum = first_num + second_num;
-    std::cout << "Sum: " << sum << std::endl;
+    // int age1;
+    // std::string name;
 
-    sum = addNums(25, 7);
-    std::cout << "Sum: " << sum << std::endl;
+    // std::cout << "type name and age" << std::endl;
 
-    sum = addNums(30, 54);
-    std::cout << "Sum: " << sum << std::endl;
+    // std::cin >> name;
+    // std::cin >> age1;
 
-    std::cout << "Sum: " << addNums(3, 42) << std::endl;
+    // std::cin >> name >> age1;
 
-    std::cout << "Div: " << divNums(9, 3) << std::endl;
-    // std::cout << "Div: " << divNums(3, 0) << std::endl;
-    std::cout << "Div: " << divNums(3, 7) << std::endl;
-    std::cout << "Div: " << divNums(10, 3) << std::endl;
-    std::cout << "Div: " << divNums(11, 3) << std::endl;
+    // std::cout << "Hello " << name << " you are " << age1 << " years old." << std::endl;
+
+    int age3;
+    std::string full_name;
+    std::cout << "please type full name and age" << std::endl;
+    std::getline(std::cin, full_name);
+    std::cin >> age3;
+    std::cout << "Hi " << full_name << " age " << age3 << std::endl;
 
     return 0;
 }
